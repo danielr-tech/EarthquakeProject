@@ -11,4 +11,5 @@ steps:
   - title: Separating the data
   - title: Plotting the data
   - title: Improving the plot
-  - title: Challenge: improve your map
+  - title: "Challenge: improve your map"
+    challenge: true
