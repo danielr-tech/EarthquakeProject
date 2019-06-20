@@ -14,7 +14,8 @@ Entities can be found most easily by using the Wolfram's Free-Form Linguistic In
 
 --- task ---
 
-In a new cell in your notebook, press `Ctrl` + `=`. This should make a little input field appear: ![Free-form input cell](images/FreeFormCellEmpty.png).
+In a new cell in your notebook, press `Ctrl` + `=`. This should make a little input field appear:
+![Free-form input cell](images/FreeFormCellEmpty.png)
 TODO: Can this image be in-line?
 
 Type in a location and hit enter.

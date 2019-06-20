@@ -134,6 +134,7 @@ You can extract the positions and magnitudes by name (`{"Position", "Magnitude"}
 --- hint ---
 
 The code you need is:
+
 ```
 Part[earthquakeData, All, {"Position", "Magnitude"}]
 ```

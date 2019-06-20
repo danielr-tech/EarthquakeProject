@@ -18,7 +18,6 @@ Values[
         ]
     ]
 ]
-
 ```
 
 ![Magnitude 7+ Earthquakes around the world since 2010](images/WorldEarthquakePlot.png)

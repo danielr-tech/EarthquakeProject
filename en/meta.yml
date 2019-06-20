@@ -7,7 +7,8 @@ copyedit: false
 last_tested: "2018-12-06"
 steps:
   - title: Introduction
-  - title: Finding Faces
-  - title: Basic Face Swap
-  - title: Making the Face Swap Look Better
-  - title: Completing your Face Swap
+  - title: Finding earthquakes near a location
+  - title: Separating the data
+  - title: Plotting the data
+  - title: Improving the plot
+  - title: Challenge: improve your map

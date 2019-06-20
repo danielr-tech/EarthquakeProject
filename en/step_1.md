@@ -1,4 +1,4 @@
-## Earthquake plot
+## Introduction
 
 In this project, you will use the Wolfram Language to create a plot showing all of the major earthquakes that have occurred around the world in the last decade.
 
@@ -32,16 +32,5 @@ title: What you will learn
 + How to extract data using entities and date objects
 + How to extract values from an association
 + How to plot a bubble chart
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/wolfram-earthquake/print){:target="_blank"}.
-
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
 
 --- /collapse ---
