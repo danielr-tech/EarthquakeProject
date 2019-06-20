@@ -2,7 +2,7 @@
 
 --- task ---
 
-If you have never used the Wolfram Language before, follow [this guide to get started]() and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**.
+If you have never used the Wolfram Language before, follow [this guide to get started](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**.
 
 --- /task ---
 
