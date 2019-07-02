@@ -50,6 +50,8 @@ Find all of the earthquakes within a range of magnitudes of your choice that hav
 EarthquakeData[<your location entity>, {<lower magnitude>, <upper magnitude>}]
 ```
 
+--- hints ---
+
 --- hint ---
 
 For example, this code finds all of the earthquakes of magnitude 3 to 5 that have occurred near Paris:
@@ -61,6 +63,8 @@ EarthquakeData[Entity["City", {"Paris", "IleDeFrance", "France"}], {3, 5}]
 [Paris earthquakes 1](images/ParisEarthquakeOutput1.png)
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -84,6 +88,8 @@ Find all of the earthquakes that have occurred within a time interval of your ch
 EarthquakeData[<your location entity>, {<lower magnitude>, <upper magnitude>}, {<earlier date>, <later date>}]
 ```
 
+--- hints ---
+
 --- hint ---
 
 For example, this code finds all of the earthquakes of magnitude 3 to 5 that have occurred near Paris since 2002:
@@ -95,5 +101,7 @@ EarthquakeData[Entity["City", {"Paris", "IleDeFrance", "France"}], {3, 5}, {Date
 [Paris earthquakes 2](images/ParisEarthquakeOutput2.png)
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---

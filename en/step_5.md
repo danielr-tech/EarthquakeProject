@@ -22,11 +22,15 @@ Values[
 
 ![Magnitude 7+ Earthquakes around the world since 2010](images/WorldEarthquakePlot.png)
 
+--- hints ---
+
 --- hint ---
 
 Create a Free-Form input field and type "world" or "earth".
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -42,11 +46,15 @@ Colour palettes can be found by evaluating `ColorData["Gradients"]`.
 
 ![Magnitude 7+ Earthquakes around the world since 2010 (coloured)](images/WorldEarthquakePlotColoured.png)
 
+--- hints ---
+
 --- hint ---
 
 Try `ColorFunction -> "NeonColors"`
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -57,11 +65,15 @@ It is recommended that both numbers are less than 0.5.
 
 ![Magnitude 7+ Earthquakes around the world since 2010 (with size variation)](images/WorldEarthquakePlotSizeVariation.png)
 
+--- hints ---
+
 --- hint ---
 
 Try `BubbleSizes -> {0.05, 0.15}`
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---
 

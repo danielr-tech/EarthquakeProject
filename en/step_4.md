@@ -4,7 +4,7 @@ You should now have a smaller set of data. In order to extract the specific info
 
 Remember, if there are associations inside associations, `Values` only works on the outermost one.
 
---- tast ---
+--- task ---
 
 Use `Values` to obtain a list of {position, magnitude} pairs.
 
@@ -14,11 +14,15 @@ Values[<data>]
 
 ![A {position, magnitude} pair](images/PositionMagnitudePair.png)
 
+--- hints ---
+
 --- hint ---
 
 You need to apply `Values` twice.
 
 --- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
