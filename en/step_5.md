@@ -20,8 +20,6 @@ Values[
 ]
 ```
 
-![Magnitude 7+ Earthquakes around the world since 2010](images/WorldEarthquakePlot.png)
-
 --- hints ---
 
 --- hint ---
@@ -34,10 +32,17 @@ Create a Free-Form input field and type "world" or "earth".
 
 --- /task ---
 
-You should now have a much longer list of {position, magnitude} pairs to plot.
+You should now have a much longer list of {position, magnitude} pairs.
 
+--- task ---
 
-In your first plot, it was very difficult to distinguish earthquakes of different magnitudes, as all of the bubbles were the same colour and similar in size. Luckily, both of these characteristics can be changed easily with options in `GeoBubbleChart`.
+Plot the new data.
+
+![Magnitude 7+ Earthquakes around the world since 2010](images/WorldEarthquakePlot.png)
+
+--- /task ---
+
+In your plot, you might find it difficult to distinguish earthquakes of different magnitudes, as all of the bubbles are the same colour and similar in size. Luckily, both of these characteristics can be changed easily with options in `GeoBubbleChart`.
 
 --- task ---
 
