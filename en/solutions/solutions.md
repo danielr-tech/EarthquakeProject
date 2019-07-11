@@ -6,7 +6,7 @@ Find (for example) earthquakes of magnitude 3 to 5 near Paris, France, from 2002
 EarthquakeData[Entity["City", {"Paris", "IleDeFrance", "France"}], {3, 5}, {DateObject[{2002}], DateObject[]}]
 ```
 
-![Paris earthquakes 2](images/ParisEarthquakeOutput2.png)
+![Paris earthquakes 2](../images/ParisEarthquakeOutput2.png)
 
 
 ## Separating the data
@@ -38,7 +38,7 @@ Plot the data using (for example) France as the plot range:
 GeoBubbleChart[earthquakeData, GeoRange -> Entity["Country", "France"]]
 ```
 
-![Paris earthquake bubble](images/ParisEarthquakeBubble.png)
+![Paris earthquake bubble](../images/ParisEarthquakeBubble.png)
 
 
 ## Improving the plot
@@ -58,7 +58,7 @@ Values[
 ];
 ```
 
-![Magnitude 7+ Earthquakes around the world since 2010](images/WorldEarthquakePlot.png)
+![Magnitude 7+ Earthquakes around the world since 2010](../images/WorldEarthquakePlot.png)
 
 Plot the earthquakes with (for example) neon colours and scaling:
 
@@ -71,7 +71,7 @@ GeoBubbleChart[
 ]
 ```
 
-![Complete project](images/CompleteEarthquakePlot.png)
+![Complete project](../images/CompleteEarthquakePlot.png)
 
 
 ## Challenges
@@ -94,4 +94,4 @@ GeoBubbleChart[
 ]
 ```
 
-![Magnitude 7+ Earthquakes around the world since 2010 (several options enabled)](images/WorldEarthquakePlotAllOptions.png)
+![Magnitude 7+ Earthquakes around the world since 2010 (several options enabled)](../images/WorldEarthquakePlotAllOptions.png)
