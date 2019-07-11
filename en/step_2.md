@@ -16,13 +16,12 @@ Entities can be found most easily by using the Wolfram's Free-Form Linguistic In
 
 In a new cell in your notebook, press `Ctrl` + `=`. This should make a little input field appear:
 ![Free-form input cell](images/FreeFormCellEmpty.png)
-TODO: Can this image be in-line?
 
 Type in a location and hit enter.
 
 There may be multiple interpretations of your input. If so, click the three dots to choose the one you want, then click the tick to confirm your choice.
 
-[Free form input to Paris entity](images/ParisFreeFormCellToEntity.png)
+![Free form input to Paris entity](images/ParisFreeFormCellToEntity.png)
 
 --- /task ---
 
@@ -60,7 +59,7 @@ For example, this code finds all of the earthquakes of magnitude 3 to 5 that hav
 EarthquakeData[Entity["City", {"Paris", "IleDeFrance", "France"}], {3, 5}]
 ```
 
-[Paris earthquakes 1](images/ParisEarthquakeOutput1.png)
+![Paris earthquakes 1](images/ParisEarthquakeOutput1.png)
 
 --- /hint ---
 
@@ -98,7 +97,7 @@ For example, this code finds all of the earthquakes of magnitude 3 to 5 that hav
 EarthquakeData[Entity["City", {"Paris", "IleDeFrance", "France"}], {3, 5}, {DateObject[{2002}], DateObject[]}]
 ```
 
-[Paris earthquakes 2](images/ParisEarthquakeOutput2.png)
+![Paris earthquakes 2](images/ParisEarthquakeOutput2.png)
 
 --- /hint ---
 

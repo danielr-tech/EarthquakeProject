@@ -6,7 +6,7 @@ In this project, you will use the Wolfram Language to create a plot showing all 
 ### What you will make
 
 --- print-only ---
-![Complete project](images/CompleteEarthquakePlot.png) 
+![Complete project](images/CompleteEarthquakePlot.png)
 --- /print-only ---
 
 --- collapse ---
