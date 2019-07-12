@@ -8,20 +8,59 @@ If you have never used the Wolfram Language before, follow [this guide to get st
 
 To start, you will obtain earthquake data for a chosen location on earth.
 
-Many locations (provided they are large or important enough) are built in to the Wolfram Language, each as an `Entity`. Entities are objects of a given type--for example, planets, countries, elements, and so on--with built-in properties.
+Many locations (provided they are large or important enough) are built in to the Wolfram Language, each as an `Entity`.
 
-Entities can be found most easily by using the Wolfram's Free-Form Linguistic Input.
+--- collapse ---
+---
+title: Entities explained
+---
+
+Objects in the real world have properties. For example, a country has a **population**, an **area** and a **flag**; a planet has a **size**, a **colour** and a **path around the sun**.
+
+Many objects, along with their most definitive properties, are built in to the Wolfram Language.
+Such built-in objects are called **entities**, and can be identified by their yellow boxes with orange borders:
+
+![Random country entities](images/RandomEntities.png)
+
+Entities are special because their properties can be extracted and computed with.
+For example, we can find the number adults in Japan:
+
+![Adult population of Japan](images/JapanAdultPercentage.png)
+
+And compute it as a percentage of the total population:
+
+![Percentage of adults in Japan](images/JapanAdultPopulation.png)
+
+Since there are many entity types (and some objects can be interpreted as more than one type), the easiest way to find a particular entity is with the Wolfram Language's Free-Form Linguistic Input.
 
 --- task ---
 
 In a new cell in your notebook, press `Ctrl` + `=`. This should make a little input field appear:
 ![Free-form input cell](images/FreeFormCellEmpty.png)
 
-Type in a location and hit enter.
+Type in an object (e.g. the name of a location) and hit enter.
 
 There may be multiple interpretations of your input. If so, click the three dots to choose the one you want, then click the tick to confirm your choice.
 
 ![Free form input to Paris entity](images/ParisFreeFormCellToEntity.png)
+
+--- /task ---
+
+--- /collapse ---
+
+--- task ---
+
+Find a location entity.
+
+--- hints ---
+
+--- hint ---
+
+Use free-form input.
+
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 

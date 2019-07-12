@@ -29,7 +29,10 @@ title: What you will learn
 ---
 
 + How to use Free-Form Input
++ How to identify an entity
++ How to identify a date object
 + How to extract data using entities and date objects
++ How to identify an association
 + How to extract values from an association
 + How to plot a bubble chart
 
