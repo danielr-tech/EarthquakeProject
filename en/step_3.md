@@ -29,6 +29,55 @@ Much in the way lists can be put inside each other, so can associations--althoug
 
 When associations are put inside one another like this, they are said to be **nested**.
 
+Parts of an association can be extracted with a few different functions:
++ `Keys` finds every category name
++ `Values` finds the information in every category
++ `Lookup` find the piece of information for a particular category
++ `Part` finds the pieces of information for one or more categories or at one or more **positions**
+
+For now, let's just look at the first two of these.
+As the name would suggest, `Keys` extracts all of the keys from an association:
+
+![Extracting keys from an association](images/AssocKeys.png)
+
+Likewise, `Values` extracts all of the values:
+
+![Extracting values from an association](images/AssocValues.png)
+
+--- task ---
+
+Extract the keys and values from the following association:
+
+```
+animals = <| "Dogs" -> 6, "Cats" -> 3, "Ducks" -> 2, "Hamsters" -> 4, "Fish" -> 10|>;
+```
+
+--- hints ---
+
+--- hint ---
+
+You should get the following keys:
+
+```
+{"Dogs", "Cats", "Ducks", "Hamsters", "Fish"}
+```
+
+--- /hint ---
+
+--- hint ---
+
+You should get the following values:
+
+```
+{6, 3, 2, 4, 10}
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
 --- /collapse ---
 
 In the case of your data, the categories are the (somewhat peculiar) names of the earthquakes, such as "pde508851", each of which is sub-categorised by their "Period", "AzimuthalGap", "Depth" and so on.
@@ -39,21 +88,24 @@ As you can see, each sub-category is paired with a piece of specific information
 
 ![Earthquake pde508851, position and magnitude highlighted](images/PositionMagnitudeHighlighted.png)
 
-Parts of an association can be extracted with a few different functions:
-+ `Keys` finds every category name
-+ `Values` finds the information in every category
-+ `Lookup` find the piece of information for a particular category
-+ `Part` finds the pieces of information for one or more categories or at one or more **positions**
 
-Note that if there are several associations inside one another, `Keys`, `Values` and `Lookup` will only search in the outermost association.
+If (as is the case with your data) there are several associations inside one another, `Keys`, `Values` and `Lookup` will only search in the outermost association.
+However, `Part` can penetrate nested associations to any depth.
+For this reason, you will use `Part` to separate the "Position" and "Magnitude" sub-categories from the rest of the earthquake data.
 
 --- collapse ---
 ---
 title: Part explained
 ---
 
-In a sense, `Part` is more powerful than `Keys`, `Values` or `Lookup`, as it can penetrate nested associations to any depth. It is also unusual in that it can search associations by **position**, not just category name.
-`Part` is a very rich function with capabilities that cannot be fully explained here, but a few examples should give you a taste of what it can do.
+`Part` extracts part of an **expression**. The expression is usually some sort of data, but `Part` works on a lot of functions, too. The part being extracted might be a single item, or it might be several items that match some pattern.
+
+More specifically, the data is usually a list or association (or a list of lists or a nested association) and items are extracted by their position, such as "4th item in the list".
+
+For associations, `Part` has the extra property of being able to extract items by **category name** as well as position.
+(`Part` also works on lists, but that's not important right now.)
+
+`Part` is best understood with examples.
 
 --- task ---
 
@@ -98,8 +150,6 @@ Part[exampleAssoc, 2, {"a2", "b2"}]
 Try experimenting with the values used in the examples above--especially the "column" example, as this is a tricky case.
 
 --- /collapse ---
-
-You can use `Part` to separate the "Position" and "Magnitude" sub-categories from the rest of the earthquake data.
 
 --- task ---
 

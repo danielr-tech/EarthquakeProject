@@ -17,7 +17,7 @@ title: Entities explained
 
 Objects in the real world have properties. For example, a country has a **population**, an **area** and a **flag**; a planet has a **size**, a **colour** and a **path around the sun**.
 
-Many objects, along with their most definitive properties, are built in to the Wolfram Language.
+Many objects, along with the properties which define them, are built in to the Wolfram Language.
 Such built-in objects are called **entities**, and can be identified by their yellow boxes with orange borders:
 
 ![Random country entities](images/RandomEntities.png)
@@ -25,17 +25,18 @@ Such built-in objects are called **entities**, and can be identified by their ye
 Entities are special because their properties can be extracted and computed with.
 For example, we can find the number adults in Japan:
 
-![Adult population of Japan](images/JapanAdultPercentage.png)
+![Adult population of Japan](images/JapanAdultPopulation.png)
 
 And compute it as a percentage of the total population:
 
-![Percentage of adults in Japan](images/JapanAdultPopulation.png)
+![Percentage of adults in Japan](images/JapanAdultPercentage.png)
 
 Since there are many entity types (and some objects can be interpreted as more than one type), the easiest way to find a particular entity is with the Wolfram Language's Free-Form Linguistic Input.
 
 --- task ---
 
 In a new cell in your notebook, press `Ctrl` + `=`. This should make a little input field appear:
+
 ![Free-form input cell](images/FreeFormCellEmpty.png)
 
 Type in an object (e.g. the name of a location) and hit enter.
@@ -56,7 +57,7 @@ Find a location entity.
 
 --- hint ---
 
-Use free-form input.
+Use free-form input (`Ctrl` + `=`).
 
 --- /hint ---
 
